@@ -21,7 +21,7 @@ export default function Sidebar() {
             Sarthak Chauhan
           </h1>
 
-          <p className="title">MERN Stack Developer</p>
+          <p className="title">Web and Mobile App Developer</p>
           <a
             href="mailto:thesarthakchauhan@gmail.com"
             className="text-white text-sm mt-3 lg:hidden"
@@ -35,7 +35,6 @@ export default function Sidebar() {
         <div className="separator"></div>
 
         <ul className="contacts-list">
-          {/* mail */}
           <li className="contact-item">
             <div className="icon-box">
               <IoMailOutline />
@@ -43,7 +42,10 @@ export default function Sidebar() {
 
             <div className="contact-info">
               <p className="contact-title">Email</p>
-              <a href="mailto:thesarthakchauhan@gmail.com" className="contact-link">
+              <a
+                href="mailto:thesarthakchauhan@gmail.com"
+                className="contact-link"
+              >
                 thesarthakchauhan@gmail.com
               </a>
             </div>
@@ -57,7 +59,10 @@ export default function Sidebar() {
 
             <div className="contact-info">
               <p className="contact-title">Github</p>
-              <a href="https://github.com/sarthakology" className="contact-link">
+              <a
+                href="https://github.com/sarthakology"
+                className="contact-link"
+              >
                 sarthakology
               </a>
             </div>
@@ -72,7 +77,7 @@ export default function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Resume</p>
               <a
-                href="https://drive.usercontent.google.com/download?id=1njzDUeuG2vzFxxzroIERCtudiiBTbVix&export=download&authuser=0"  // Add your resume link here
+                href="https://drive.usercontent.google.com/download?id=1njzDUeuG2vzFxxzroIERCtudiiBTbVix&export=download&authuser=0" // Add your resume link here
                 className="contact-link"
                 download="Sarthak_Chauhan_Resume"
               >
@@ -99,7 +104,10 @@ export default function Sidebar() {
         {/* Social Links */}
         <ul className="social-list">
           <li className="social-item">
-            <a href="https://www.linkedin.com/in/sarthakch/" className="social-link">
+            <a
+              href="https://www.linkedin.com/in/sarthakch/"
+              className="social-link"
+            >
               <IoLogoLinkedin />
             </a>
           </li>

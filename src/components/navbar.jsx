@@ -17,7 +17,7 @@ export default function Navbar({ setNavlink }) {
               setLinkActive("about");
             }}
           >
-            About
+            Home
           </button>
         </li>
 
@@ -32,7 +32,7 @@ export default function Navbar({ setNavlink }) {
               setLinkActive("resume");
             }}
           >
-            Resume
+            About
           </button>
         </li>
 

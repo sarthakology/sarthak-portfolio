@@ -1,20 +1,22 @@
 import React from "react";
 
 const skills = [
-  "React",
-  "Redux",
-  "Solidity",
+  "React.js",
+  "React Native",
   "JavaScript",
-  "TypeScript",
-  "Next.js",
   "Node.js",
   "Express.js",
   "MongoDB",
-  "PostgreSQL",
-  "Docker",
   "GitHub",
-  "AWS",
+  "Tailwind CSS",
+  "MySQL",
+  "Python",
+  "SQL",
+  "Swift",
+  "C",
+  "C++"
 ];
+
 
 const SkillCard = ({ name }) => (
   <div className="flex items-center justify-center bg-[#333] text-white px-4 py-2 rounded-lg transition-transform duration-200 hover:scale-105 w-fit h-fit shadow-md">
