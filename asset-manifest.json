@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sarthak-portfolio/static/css/main.e32f44a5.css",
+    "main.js": "/sarthak-portfolio/static/js/main.37346391.js",
+    "static/js/453.ae9cf064.chunk.js": "/sarthak-portfolio/static/js/453.ae9cf064.chunk.js",
+    "static/media/gym-fitness.png": "/sarthak-portfolio/static/media/gym-fitness.ed9103c44efb485f3ef0.png",
+    "static/media/icon-dev.svg": "/sarthak-portfolio/static/media/icon-dev.2a51ebae3899ae5ab67adf9875f02393.svg",
+    "static/media/icon-design.svg": "/sarthak-portfolio/static/media/icon-design.d6326a90fb3a6e270b2fbf68c58759cb.svg",
+    "static/media/icon-block.svg": "/sarthak-portfolio/static/media/icon-block.4db09c1febe0ac3eaf931922cd73a12b.svg",
+    "index.html": "/sarthak-portfolio/index.html",
+    "main.e32f44a5.css.map": "/sarthak-portfolio/static/css/main.e32f44a5.css.map",
+    "main.37346391.js.map": "/sarthak-portfolio/static/js/main.37346391.js.map",
+    "453.ae9cf064.chunk.js.map": "/sarthak-portfolio/static/js/453.ae9cf064.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e32f44a5.css",
+    "static/js/main.37346391.js"
+  ]
+}
