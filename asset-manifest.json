@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/sarthak-portfolio/static/css/main.692506e3.css",
-    "main.js": "/sarthak-portfolio/static/js/main.a49cad46.js",
+    "main.js": "/sarthak-portfolio/static/js/main.4b95f117.js",
     "static/js/453.ae9cf064.chunk.js": "/sarthak-portfolio/static/js/453.ae9cf064.chunk.js",
     "static/media/gym-fitness.png": "/sarthak-portfolio/static/media/gym-fitness.ed9103c44efb485f3ef0.png",
+    "static/media/calendar.png": "/sarthak-portfolio/static/media/calendar.138477dee502bd1e8750.png",
     "index.html": "/sarthak-portfolio/index.html",
     "main.692506e3.css.map": "/sarthak-portfolio/static/css/main.692506e3.css.map",
-    "main.a49cad46.js.map": "/sarthak-portfolio/static/js/main.a49cad46.js.map",
+    "main.4b95f117.js.map": "/sarthak-portfolio/static/js/main.4b95f117.js.map",
     "453.ae9cf064.chunk.js.map": "/sarthak-portfolio/static/js/453.ae9cf064.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.692506e3.css",
-    "static/js/main.a49cad46.js"
+    "static/js/main.4b95f117.js"
   ]
 }
