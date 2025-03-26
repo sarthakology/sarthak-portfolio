@@ -2,16 +2,21 @@ import React from "react";
 import { IoEyeSharp } from "react-icons/io5";
 
 import gym from "../assets/projects/gym-fitness.png";
-
+import calendar from "../assets/projects/calendar.png"
 export default function Projects() {
   const projectsData = [
 
     {
       name: "Gym Fitness",
       liveLink: "https://gym-fitness-ten.vercel.app/",
-      github: "https://github.com/adiabhiraj195/gym-fitness",
       image: gym,
       catogery: "Reactjs",
+    },
+    {
+      name: "Calendar",
+      liveLink: "https://sarthakology.github.io/react-calendar/",
+      image: calendar,
+      catogery: "Reactjs, tailwaind",
     },
   ];
 
