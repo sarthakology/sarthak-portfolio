@@ -7,10 +7,10 @@ export default function Projects() {
   const projectsData = [
 
     {
-      name: "Gym Fitness",
-      liveLink: "https://gym-fitness-ten.vercel.app/",
+      name: "Fitness Plan Generator",
+      liveLink: "https://sarthakology.github.io/Fitness-Plan-Generator/",
       image: gym,
-      catogery: "Reactjs",
+      catogery: "Reactjs, tailwind",
     },
     {
       name: "Calendar",

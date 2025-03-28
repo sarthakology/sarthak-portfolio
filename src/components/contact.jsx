@@ -1,16 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
 
-  function handleForm(e) {
+  const form = useRef(null);
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", msg);
-  }
+
+    emailjs
+      .sendForm('service_momrrba', 'template_z4fm7h2', form.current, {
+        publicKey: '5JItNzawcpi4fb6fc',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          alert("Failed to send message, please try again.");
+        },
+      );
+  };
 
   return (
     <article className="contact active" data-page="contact">
@@ -23,13 +38,14 @@ export default function Contact() {
 
         <form
           className="form"
-          onSubmit={handleForm}
+          onSubmit={sendEmail}
           data-form
+          ref={form}
         >
           <div className="input-wrapper">
             <input
               type="text"
-              name="fullname"
+              name="user_name"
               className="form-input"
               placeholder="Full name"
               required
@@ -40,7 +56,7 @@ export default function Contact() {
 
             <input
               type="email"
-              name="email"
+              name="user_email"
               className="form-input"
               placeholder="Email address"
               required
