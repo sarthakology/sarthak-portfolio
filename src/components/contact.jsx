@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -12,18 +12,18 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_momrrba', 'template_z4fm7h2', form.current, {
-        publicKey: '5JItNzawcpi4fb6fc',
+      .sendForm("service_momrrba", "template_z4fm7h2", form.current, {
+        publicKey: "5JItNzawcpi4fb6fc",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
           alert("Message sent successfully!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log("FAILED...", error.text);
           alert("Failed to send message, please try again.");
-        },
+        }
       );
   };
 
@@ -36,12 +36,7 @@ export default function Contact() {
       <section className="contact-form">
         <h3 className="h3 form-title">Contact Form</h3>
 
-        <form
-          className="form"
-          onSubmit={sendEmail}
-          data-form
-          ref={form}
-        >
+        <form className="form" onSubmit={sendEmail} data-form ref={form}>
           <div className="input-wrapper">
             <input
               type="text"

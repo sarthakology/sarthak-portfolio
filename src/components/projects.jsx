@@ -1,6 +1,5 @@
 import React from "react";
 import { IoEyeSharp } from "react-icons/io5";
-
 import gym from "../assets/projects/gym-fitness.png";
 import calendar from "../assets/projects/calendar.png"
 export default function Projects() {
